@@ -1,0 +1,45 @@
+﻿2020-06-14T21:39:15.2466569-03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-06-14T21:39:15.2466569-03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.2.31 in Framework clr40 in x86 mode execution started
+2020-06-14T21:39:15.2466569-03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\User\Desktop\TesteItau\TesteWeb_iCarros\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-06-14T21:39:15.2826608-03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\User\Desktop\TesteItau\TesteWeb_iCarros\bin\Debug\UnitTestProject1.dll
+2020-06-14T21:39:15.2826608-03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\User\Desktop\TesteItau\TesteWeb_iCarros\TestResults" (default)
+2020-06-14T21:39:15.2826608-03:00;VSTestExecutionThread;Info;Profile: 
+2020-06-14T21:39:15.3506559-03:00;VSTestExecutionThread;Info;Log file path: C:\Users\User\Desktop\TesteItau\TesteWeb_iCarros\TestResults\Unnamed project__2020-06-14T213915.log
+2020-06-14T21:39:15.3706565-03:00;Thread#13;Info;Checking activation
+2020-06-14T21:39:15.5226608-03:00;Thread#13;Info;Activation check completed
+2020-06-14T21:39:15.5236565-03:00;Thread#13;Info;Starting test run
+2020-06-14T21:39:15.5396603-03:00;Thread#13;Info;Discovering target: Default
+2020-06-14T21:39:15.5396603-03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\User\Desktop\TesteItau\TesteWeb_iCarros\bin\Debug\UnitTestProject1.dll
+2020-06-14T21:39:16.0387214-03:00;Thread#13;Info;Discovered tests from assembly: C:\Users\User\Desktop\TesteItau\TesteWeb_iCarros\bin\Debug\UnitTestProject1.dll
+2020-06-14T21:39:16.0396572-03:00:Test Suite Dump
+2020-06-14T21:39:16.0417207-03:00:#0: Unnamed project/ - 
+2020-06-14T21:39:16.0417207-03:00:#1: Default - 
+2020-06-14T21:39:16.0417207-03:00:#2: UnitTestProject1 - 
+2020-06-14T21:39:16.0417207-03:00:#3: Validar pesquisa do iCarros - 
+2020-06-14T21:39:16.0937209-03:00:#4: 1 Armazenar dados da pesquisa - TestAssembly:UnitTestProject1/Feature:Validar+pesquisa+do+iCarros/Scenario:1+Armazenar+dados+da+pesquisa
+2020-06-14T21:39:16.0937209-03:00:End: Test Suite Dump
+2020-06-14T21:39:16.1216610-03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-14T21:39:16.1236560-03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-06-14T21:39:16.1236560-03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-06-14T21:39:16.1287212-03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-14T21:39:16.1287212-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-06-14T21:39:16.1287212-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-06-14T21:39:16.1287212-03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-06-14T21:39:16.1297209-03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-06-14T21:39:16.1306560-03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-14T21:39:16.1346564-03:00:Thread #0: creating new test thread executor for UnitTestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-06-14T21:39:16.1366570-03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-06-14T21:39:16.1486565-03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-06-14T21:39:16.1496571-03:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-06-14T21:39:16.6126562-03:00:Thread#0:T:-> Loading plugin C:\Users\User\Desktop\TesteItau\TesteWeb_iCarros\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-06-14T21:39:16.6246567-03:00:Thread#0:T:-> Using default config
+2020-06-14T21:39:17.3326647-03:00:Thread#0: Test #4/0 is started on thread #0
+2020-06-14T21:39:17.4226562-03:00:Thread#0:B:Dado que o usuario acessa a plataforma "https://www.icarros.com.br/principal/index.jsp"
+2020-06-14T21:39:22.8783148-03:00:Thread#0:T:done: iCarrosSteps.DadoQueOUsuarioAcessaAPlataforma("https://www.icarr...") (5,3s)
+2020-06-14T21:39:22.8853163-03:00:Thread#0:B:Quando realizar a pesquisa de veiculos usados
+2020-06-14T21:39:22.8863809-03:00:Thread#0:B:  --- table step argument ---
+2020-06-14T21:39:22.8863809-03:00:Thread#0:B:  | Keys   | Values     |
+2020-06-14T21:39:22.8863809-03:00:Thread#0:B:  | Marca  | Volkswagen |
+2020-06-14T21:39:22.8863809-03:00:Thread#0:B:  | Modelo | Fox        |
+2020-06-14T21:39:25.9473152-03:00:Thread#0:T:done: iCarrosSteps.QuandoRealizarAPesquisaDeVeiculosUsados(<table>) (3,1s)
+2020-06-14T21:39:25.9473152-03:00:Thread#0:B:Então armazenar dados da pesquisa

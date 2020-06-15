@@ -1,0 +1,65 @@
+﻿2020-06-14T15:49:14.7260616-03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-06-14T15:49:14.7270622-03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.2.31 in Framework clr40 in x86 mode execution started
+2020-06-14T15:49:14.7270622-03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\User\Desktop\TesteItau\UnitTestProject1\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-06-14T15:49:14.7600802-03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\User\Desktop\TesteItau\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+2020-06-14T15:49:14.7600802-03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\User\Desktop\TesteItau\TestResults" (default)
+2020-06-14T15:49:14.7600802-03:00;VSTestExecutionThread;Info;Profile: 
+2020-06-14T15:49:14.8250618-03:00;VSTestExecutionThread;Info;Log file path: C:\Users\User\Desktop\TesteItau\TestResults\Unnamed project__2020-06-14T154914.log
+2020-06-14T15:49:14.8340616-03:00;Thread#13;Info;Checking activation
+2020-06-14T15:49:14.9800623-03:00;Thread#13;Info;Activation check completed
+2020-06-14T15:49:14.9800623-03:00;Thread#13;Info;Starting test run
+2020-06-14T15:49:15.0010613-03:00;Thread#13;Info;Discovering target: Default
+2020-06-14T15:49:15.0010613-03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\User\Desktop\TesteItau\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+2020-06-14T15:49:15.5190786-03:00;Thread#13;Info;Discovered tests from assembly: C:\Users\User\Desktop\TesteItau\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+2020-06-14T15:49:15.5200630-03:00:Test Suite Dump
+2020-06-14T15:49:15.5221264-03:00:#0: Unnamed project/ - 
+2020-06-14T15:49:15.5221264-03:00:#1: Default - 
+2020-06-14T15:49:15.5221264-03:00:#2: UnitTestProject1 - 
+2020-06-14T15:49:15.5221264-03:00:#3: Validar pesquisa do iCarros - 
+2020-06-14T15:49:15.5690614-03:00:#4: Armazenar dados da pesquisa - TestAssembly:UnitTestProject1/Feature:Validar+pesquisa+do+iCarros/Scenario:Armazenar+dados+da+pesquisa
+2020-06-14T15:49:15.5700617-03:00:End: Test Suite Dump
+2020-06-14T15:49:15.6060622-03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-14T15:49:15.6090871-03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-06-14T15:49:15.6090871-03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-06-14T15:49:15.6160630-03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-14T15:49:15.6170618-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-06-14T15:49:15.6170618-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-06-14T15:49:15.6170618-03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-06-14T15:49:15.6180819-03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-06-14T15:49:15.6190828-03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-14T15:49:15.6230612-03:00:Thread #0: creating new test thread executor for UnitTestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-06-14T15:49:15.6270769-03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-06-14T15:49:15.6400617-03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-06-14T15:49:15.6420662-03:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-06-14T15:49:16.1051267-03:00:Thread#0:T:-> Loading plugin C:\Users\User\Desktop\TesteItau\UnitTestProject1\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-06-14T15:49:16.1180624-03:00:Thread#0:T:-> Using default config
+2020-06-14T15:49:16.8250628-03:00:Thread#0: Test #4/0 is started on thread #0
+2020-06-14T15:49:20.5028356-03:00:Thread#0:B:Dado que o usuario acessa a plataforma "https://www.icarros.com.br/principal/index.jsp"
+2020-06-14T15:49:27.1170881-03:00:Thread#0:T:error: Uma exceção foi acionada pelo destino de uma chamada.
+2020-06-14T15:49:28.5040884-03:00:Thread#0:B:Quando realizar a pesquisa de veiculos usados
+2020-06-14T15:49:28.5040884-03:00:Thread#0:B:  --- table step argument ---
+2020-06-14T15:49:28.5040884-03:00:Thread#0:B:  | Keys   | Values     |
+2020-06-14T15:49:28.5040884-03:00:Thread#0:B:  | Marca  | Volkswagen |
+2020-06-14T15:49:28.5050256-03:00:Thread#0:B:  | Modelo | Fox        |
+2020-06-14T15:49:28.5050256-03:00:Thread#0:T:skipped because of previous errors
+2020-06-14T15:49:29.1179692-03:00:Thread#0:B:Então armazenar dados da pesquisa
+2020-06-14T15:49:29.1519714-03:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2020-06-14T15:49:29.1519714-03:00:Thread#0:T:        [Then(@"armazenar dados da pesquisa")]
+2020-06-14T15:49:29.1519714-03:00:Thread#0:T:        public void EntaoArmazenarDadosDaPesquisa()
+2020-06-14T15:49:29.1519714-03:00:Thread#0:T:        {
+2020-06-14T15:49:29.1529708-03:00:Thread#0:T:            _scenarioContext.Pending();
+2020-06-14T15:49:29.1529708-03:00:Thread#0:T:        }
+2020-06-14T15:49:30.1045633-03:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2020-06-14T15:49:30.1055367-03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-14T15:49:30.1055367-03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2020-06-14T15:49:30.1055367-03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-06-14T15:49:30.1055367-03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-14T15:49:30.1055367-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-06-14T15:49:30.1055367-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-06-14T15:49:30.1055367-03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-06-14T15:49:30.1055367-03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-06-14T15:49:30.1055367-03:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2020-06-14T15:49:30.1325370-03:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 13,305486 seconds
+2020-06-14T15:49:30.1335372-03:00:Thread#0: Test #4/1 is started on thread #0
+2020-06-14T15:49:31.2630132-03:00:Thread#0:B:Dado que o usuario acessa a plataforma "https://www.icarros.com.br/principal/index.jsp"
+2020-06-14T15:49:39.6622452-03:00:Thread#0:T:error: Uma exceção foi acionada pelo destino de uma chamada.

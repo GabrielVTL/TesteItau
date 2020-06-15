@@ -1,0 +1,37 @@
+﻿2020-06-14T16:50:05.1751468-03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-06-14T16:50:05.1751468-03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.2.31 in Framework clr40 in x86 mode execution started
+2020-06-14T16:50:05.1751468-03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\User\Desktop\TesteItau\TesteWeb_iCarros\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-06-14T16:50:05.2101483-03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\User\Desktop\TesteItau\TesteWeb_iCarros\bin\Debug\UnitTestProject1.dll
+2020-06-14T16:50:05.2101483-03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\User\Desktop\TesteItau\TesteWeb_iCarros\TestResults" (default)
+2020-06-14T16:50:05.2101483-03:00;VSTestExecutionThread;Info;Profile: 
+2020-06-14T16:50:05.2791463-03:00;VSTestExecutionThread;Info;Log file path: C:\Users\User\Desktop\TesteItau\TesteWeb_iCarros\TestResults\Unnamed project__2020-06-14T165005.log
+2020-06-14T16:50:05.2881532-03:00;Thread#13;Info;Checking activation
+2020-06-14T16:50:05.4231474-03:00;Thread#13;Info;Activation check completed
+2020-06-14T16:50:05.4231474-03:00;Thread#13;Info;Starting test run
+2020-06-14T16:50:05.4411476-03:00;Thread#13;Info;Discovering target: Default
+2020-06-14T16:50:05.4411476-03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\User\Desktop\TesteItau\TesteWeb_iCarros\bin\Debug\UnitTestProject1.dll
+2020-06-14T16:50:05.9881474-03:00;Thread#13;Info;Discovered tests from assembly: C:\Users\User\Desktop\TesteItau\TesteWeb_iCarros\bin\Debug\UnitTestProject1.dll
+2020-06-14T16:50:05.9891464-03:00:Test Suite Dump
+2020-06-14T16:50:05.9911497-03:00:#0: Unnamed project/ - 
+2020-06-14T16:50:05.9911497-03:00:#1: Default - 
+2020-06-14T16:50:05.9911497-03:00:#2: UnitTestProject1 - 
+2020-06-14T16:50:05.9911497-03:00:#3: Validar pesquisa do iCarros - 
+2020-06-14T16:50:06.0402116-03:00:#4: Armazenar dados da pesquisa - TestAssembly:UnitTestProject1/Feature:Validar+pesquisa+do+iCarros/Scenario:Armazenar+dados+da+pesquisa
+2020-06-14T16:50:06.0402116-03:00:End: Test Suite Dump
+2020-06-14T16:50:06.0701470-03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-14T16:50:06.0722295-03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-06-14T16:50:06.0722295-03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-06-14T16:50:06.0772124-03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-14T16:50:06.0772124-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-06-14T16:50:06.0772124-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-06-14T16:50:06.0772124-03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-06-14T16:50:06.0791485-03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-06-14T16:50:06.0801473-03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-14T16:50:06.0832124-03:00:Thread #0: creating new test thread executor for UnitTestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-06-14T16:50:06.0851473-03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-06-14T16:50:06.0971486-03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-06-14T16:50:06.0992134-03:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-06-14T16:50:06.5451461-03:00:Thread#0:T:-> Loading plugin C:\Users\User\Desktop\TesteItau\TesteWeb_iCarros\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-06-14T16:50:06.5572121-03:00:Thread#0:T:-> Using default config
+2020-06-14T16:50:07.3052119-03:00:Thread#0: Test #4/0 is started on thread #0
+2020-06-14T16:50:09.5671876-03:00:Thread#0:B:Dado que o usuario acessa a plataforma "https://www.icarros.com.br/principal/index.jsp"

@@ -1,0 +1,72 @@
+﻿2020-06-14T21:41:25.0473429-03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-06-14T21:41:25.0473429-03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.2.31 in Framework clr40 in x86 mode execution started
+2020-06-14T21:41:25.0473429-03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\User\Desktop\TesteItau\TesteWeb_iCarros\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-06-14T21:41:25.0823424-03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\User\Desktop\TesteItau\TesteWeb_iCarros\bin\Debug\UnitTestProject1.dll
+2020-06-14T21:41:25.0833430-03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\User\Desktop\TesteItau\TesteWeb_iCarros\TestResults" (default)
+2020-06-14T21:41:25.0833430-03:00;VSTestExecutionThread;Info;Profile: 
+2020-06-14T21:41:25.1443420-03:00;VSTestExecutionThread;Info;Log file path: C:\Users\User\Desktop\TesteItau\TesteWeb_iCarros\TestResults\Unnamed project__2020-06-14T214125.log
+2020-06-14T21:41:25.1533421-03:00;Thread#13;Info;Checking activation
+2020-06-14T21:41:25.2963427-03:00;Thread#13;Info;Activation check completed
+2020-06-14T21:41:25.2963427-03:00;Thread#13;Info;Starting test run
+2020-06-14T21:41:25.3143415-03:00;Thread#13;Info;Discovering target: Default
+2020-06-14T21:41:25.3143415-03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\User\Desktop\TesteItau\TesteWeb_iCarros\bin\Debug\UnitTestProject1.dll
+2020-06-14T21:41:25.8223676-03:00;Thread#13;Info;Discovered tests from assembly: C:\Users\User\Desktop\TesteItau\TesteWeb_iCarros\bin\Debug\UnitTestProject1.dll
+2020-06-14T21:41:25.8233425-03:00:Test Suite Dump
+2020-06-14T21:41:25.8254067-03:00:#0: Unnamed project/ - 
+2020-06-14T21:41:25.8254067-03:00:#1: Default - 
+2020-06-14T21:41:25.8254067-03:00:#2: UnitTestProject1 - 
+2020-06-14T21:41:25.8254067-03:00:#3: Validar pesquisa do iCarros - 
+2020-06-14T21:41:25.8723630-03:00:#5: 2 Validar os dados armazenados da pesquisa - TestAssembly:UnitTestProject1/Feature:Validar+pesquisa+do+iCarros/Scenario:2+Validar+os+dados+armazenados+da+pesquisa
+2020-06-14T21:41:25.8723630-03:00:End: Test Suite Dump
+2020-06-14T21:41:25.8983433-03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-14T21:41:25.9003436-03:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2020-06-14T21:41:25.9003436-03:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2020-06-14T21:41:25.9063417-03:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-14T21:41:25.9063417-03:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2020-06-14T21:41:25.9063417-03:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2020-06-14T21:41:25.9063417-03:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2020-06-14T21:41:25.9073421-03:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2020-06-14T21:41:25.9083412-03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-14T21:41:25.9113417-03:00:Thread #0: creating new test thread executor for UnitTestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-06-14T21:41:25.9133420-03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-06-14T21:41:25.9263803-03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-06-14T21:41:25.9274071-03:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-06-14T21:41:26.3734076-03:00:Thread#0:T:-> Loading plugin C:\Users\User\Desktop\TesteItau\TesteWeb_iCarros\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-06-14T21:41:26.3883438-03:00:Thread#0:T:-> Using default config
+2020-06-14T21:41:27.1133435-03:00:Thread#0: Test #5/0 is started on thread #0
+2020-06-14T21:41:27.1973482-03:00:Thread#0:B:Dado que o usuario acessa a plataforma "https://www.icarros.com.br/principal/index.jsp"
+2020-06-14T21:41:33.3480345-03:00:Thread#0:T:done: iCarrosSteps.DadoQueOUsuarioAcessaAPlataforma("https://www.icarr...") (6,0s)
+2020-06-14T21:41:33.3570331-03:00:Thread#0:B:Quando realizar a pesquisa de veiculos usados
+2020-06-14T21:41:33.3570331-03:00:Thread#0:B:  --- table step argument ---
+2020-06-14T21:41:33.3570331-03:00:Thread#0:B:  | Keys   | Values     |
+2020-06-14T21:41:33.3570331-03:00:Thread#0:B:  | Marca  | Volkswagen |
+2020-06-14T21:41:33.3570331-03:00:Thread#0:B:  | Modelo | Fox        |
+2020-06-14T21:41:36.9800856-03:00:Thread#0:T:done: iCarrosSteps.QuandoRealizarAPesquisaDeVeiculosUsados(<table>) (3,6s)
+2020-06-14T21:41:39.4075851-03:00:Thread#0:B:Então validar os dados armazenados da pesquisa
+2020-06-14T21:42:04.6127319-03:00:Thread#0:T:done: iCarrosSteps.EntaoValidarOsDadosArmazenadosDaPesquisa() (25,2s)
+2020-06-14T21:42:04.6417322-03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-14T21:42:04.6417322-03:00:Thread#:Scheduler: at the end of normal test queue
+2020-06-14T21:42:04.6417322-03:00:Thread#0:Scheduler: enumerator for thread is at end
+2020-06-14T21:42:04.6417322-03:00:Thread#0:Scheduler: No more tests for thread
+2020-06-14T21:42:04.6757320-03:00:Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 37,5623885 seconds
+2020-06-14T21:42:04.8147568-03:00:Trying to cancel thread
+2020-06-14T21:42:04.8147568-03:00:Thread cancelled
+2020-06-14T21:42:04.8217319-03:00:Thread#-1:Scheduler: get next test for thread -1
+2020-06-14T21:42:04.8217319-03:00:Thread#:Scheduler: at the end of normal test queue
+2020-06-14T21:42:04.8217319-03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2020-06-14T21:42:04.8237517-03:00;Thread#13;Info;test run finished
+2020-06-14T21:42:04.8237517-03:00;Thread#13;Info;publishing test results
+2020-06-14T21:42:04.9157315-03:00;Thread#13;Info;test results published
+2020-06-14T21:42:04.9157315-03:00;Thread#13;Info;generating reports
+2020-06-14T21:42:05.0617325-03:00;Thread#13;Info;Starting external report generation process
+2020-06-14T21:42:06.8347314-03:00;Thread#13;Info;Successfully generated reports.
+2020-06-14T21:42:06.8367337-03:00;Thread#13;Info;Successfully generated reports
+2020-06-14T21:42:06.8477367-03:00:Total: 1
+2020-06-14T21:42:06.8497367-03:00:Succeeded: 1
+2020-06-14T21:42:06.8507371-03:00:Ignored: 0
+2020-06-14T21:42:06.8507371-03:00:Pending: 0
+2020-06-14T21:42:06.8507371-03:00:Skipped: 0
+2020-06-14T21:42:06.8517373-03:00:Failed: 0
+2020-06-14T21:42:06.8627374-03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-06-14T21:42:06.8627374-03:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\User\Desktop\TesteItau\TesteWeb_iCarros\TestResults\Unnamed project__2020-06-14T214125.html'
+========== End of log file ==========

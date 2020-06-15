@@ -1,0 +1,75 @@
+﻿2020-06-14T15:55:14.8798394-03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-06-14T15:55:14.8798394-03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.2.31 in Framework clr40 in x86 mode execution started
+2020-06-14T15:55:14.8798394-03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\User\Desktop\TesteItau\UnitTestProject1\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-06-14T15:55:14.9128440-03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\User\Desktop\TesteItau\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+2020-06-14T15:55:14.9128440-03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\User\Desktop\TesteItau\TestResults" (default)
+2020-06-14T15:55:14.9128440-03:00;VSTestExecutionThread;Info;Profile: 
+2020-06-14T15:55:14.9688444-03:00;VSTestExecutionThread;Info;Log file path: C:\Users\User\Desktop\TesteItau\TestResults\Unnamed project__2020-06-14T155514.log
+2020-06-14T15:55:14.9778394-03:00;Thread#13;Info;Checking activation
+2020-06-14T15:55:15.1178401-03:00;Thread#13;Info;Activation check completed
+2020-06-14T15:55:15.1178401-03:00;Thread#13;Info;Starting test run
+2020-06-14T15:55:15.1398395-03:00;Thread#13;Info;Discovering target: Default
+2020-06-14T15:55:15.1398395-03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\User\Desktop\TesteItau\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+2020-06-14T15:55:15.6588604-03:00;Thread#13;Info;Discovered tests from assembly: C:\Users\User\Desktop\TesteItau\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+2020-06-14T15:55:15.6608397-03:00:Test Suite Dump
+2020-06-14T15:55:15.6619043-03:00:#0: Unnamed project/ - 
+2020-06-14T15:55:15.6619043-03:00:#1: Default - 
+2020-06-14T15:55:15.6619043-03:00:#2: UnitTestProject1 - 
+2020-06-14T15:55:15.6619043-03:00:#3: Validar pesquisa do iCarros - 
+2020-06-14T15:55:15.7098417-03:00:#4: Armazenar dados da pesquisa - TestAssembly:UnitTestProject1/Feature:Validar+pesquisa+do+iCarros/Scenario:Armazenar+dados+da+pesquisa
+2020-06-14T15:55:15.7098417-03:00:End: Test Suite Dump
+2020-06-14T15:55:15.7389044-03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-14T15:55:15.7409048-03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-06-14T15:55:15.7409048-03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-06-14T15:55:15.7459045-03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-14T15:55:15.7459045-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-06-14T15:55:15.7459045-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-06-14T15:55:15.7459045-03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-06-14T15:55:15.7469052-03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-06-14T15:55:15.7479045-03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-14T15:55:15.7509050-03:00:Thread #0: creating new test thread executor for UnitTestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-06-14T15:55:15.7529127-03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-06-14T15:55:15.7658406-03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-06-14T15:55:15.7668392-03:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-06-14T15:55:16.2148390-03:00:Thread#0:T:-> Loading plugin C:\Users\User\Desktop\TesteItau\UnitTestProject1\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-06-14T15:55:16.2288402-03:00:Thread#0:T:-> Using default config
+2020-06-14T15:55:16.9528407-03:00:Thread#0: Test #4/0 is started on thread #0
+2020-06-14T15:55:18.1870021-03:00:Thread#0:B:Dado que o usuario acessa a plataforma "https://www.icarros.com.br/principal/index.jsp"
+2020-06-14T15:55:52.9075114-03:00:Thread#0:T:done: iCarrosSteps.DadoQueOUsuarioAcessaAPlataforma("https://www.icarr...") (34,6s)
+2020-06-14T15:55:54.5657761-03:00:Thread#0:B:Quando realizar a pesquisa de veiculos usados
+2020-06-14T15:55:54.5657761-03:00:Thread#0:B:  --- table step argument ---
+2020-06-14T15:55:54.5657761-03:00:Thread#0:B:  | Keys   | Values     |
+2020-06-14T15:55:54.5657761-03:00:Thread#0:B:  | Marca  | Volkswagen |
+2020-06-14T15:55:54.5667764-03:00:Thread#0:B:  | Modelo | Fox        |
+2020-06-14T15:55:55.7040595-03:00:Thread#0:T:done: iCarrosSteps.QuandoRealizarAPesquisaDeVeiculosUsados(<table>) (1,1s)
+2020-06-14T15:55:57.4815820-03:00:Thread#0:B:Então armazenar dados da pesquisa
+2020-06-14T15:55:57.5165874-03:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2020-06-14T15:55:57.5165874-03:00:Thread#0:T:        [Then(@"armazenar dados da pesquisa")]
+2020-06-14T15:55:57.5165874-03:00:Thread#0:T:        public void EntaoArmazenarDadosDaPesquisa()
+2020-06-14T15:55:57.5165874-03:00:Thread#0:T:        {
+2020-06-14T15:55:57.5175830-03:00:Thread#0:T:            _scenarioContext.Pending();
+2020-06-14T15:55:57.5175830-03:00:Thread#0:T:        }
+2020-06-14T15:55:57.9655811-03:00:Thread#0:T:Pending: No matching step definition found for one or more steps.
+2020-06-14T15:55:57.9655811-03:00:Thread#0:T:using System;
+2020-06-14T15:55:57.9665807-03:00:Thread#0:T:using TechTalk.SpecFlow;
+2020-06-14T15:55:57.9665807-03:00:Thread#0:T:namespace MyNamespace
+2020-06-14T15:55:57.9665807-03:00:Thread#0:T:{
+2020-06-14T15:55:57.9665807-03:00:Thread#0:T:    [Binding]
+2020-06-14T15:55:57.9665807-03:00:Thread#0:T:    public class StepDefinitions
+2020-06-14T15:55:57.9665807-03:00:Thread#0:T:    {
+2020-06-14T15:55:57.9665807-03:00:Thread#0:T:        private readonly ScenarioContext _scenarioContext;
+2020-06-14T15:55:57.9665807-03:00:Thread#0:T:        public StepDefinitions(ScenarioContext scenarioContext)
+2020-06-14T15:55:57.9665807-03:00:Thread#0:T:        {
+2020-06-14T15:55:57.9675813-03:00:Thread#0:T:            _scenarioContext = scenarioContext;
+2020-06-14T15:55:57.9675813-03:00:Thread#0:T:        }
+2020-06-14T15:55:57.9675813-03:00:Thread#0:T:        [Then(@"armazenar dados da pesquisa")]
+2020-06-14T15:55:57.9675813-03:00:Thread#0:T:        public void EntaoArmazenarDadosDaPesquisa()
+2020-06-14T15:55:57.9675813-03:00:Thread#0:T:        {
+2020-06-14T15:55:57.9675813-03:00:Thread#0:T:            _scenarioContext.Pending();
+2020-06-14T15:55:57.9675813-03:00:Thread#0:T:        }
+2020-06-14T15:55:57.9675813-03:00:Thread#0:T:    }
+2020-06-14T15:55:57.9675813-03:00:Thread#0:T:}
+2020-06-14T15:55:57.9765810-03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-14T15:55:57.9765810-03:00:Thread#:Scheduler: at the end of normal test queue
+2020-06-14T15:55:57.9765810-03:00:Thread#0:Scheduler: enumerator for thread is at end
+2020-06-14T15:55:57.9765810-03:00:Thread#0:Scheduler: No more tests for thread
